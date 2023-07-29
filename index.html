@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Masterclass</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
+  </head>
+
+  <body>
+    <div class="header" id="header">
+      <!-- <img src="https://tinyurl.com/5yascu47" /> -->
+      <h1 class="app-title">Text-to-speech App</h1>
+      <p class="app-description">
+        This app allows you to write in a text box and listen to it being read
+        back to you!
+      </p>
+    </div>
+
+    <div class="container">
+      <select class="dropdown" name="voice" id="voices">
+        <option value="">Select A Voice</option>
+      </select>
+      <div class="field">
+        <label for="rate">Rate:</label>
+        <input
+          class="w-[20px]"
+          name="rate"
+          type="range"
+          min="0"
+          max="3"
+          value="1"
+          step="0.1"
+        />
+      </div>
+      <div class="field">
+        <label for="pitch">Pitch:</label>
+
+        <input name="pitch" type="range" min="0" max="2" step="0.1" />
+      </div>
+
+      <div class="field">
+        <label>Enter text here</label>
+        <textarea name="text" class="border border-blue">
+Hello! I love JavaScript 👍</textarea
+        >
+      </div>
+
+      <div class="buttons">
+        <button class="stop" id="stop">Stop</button>
+        <button class="speak" id="speak">Speak</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

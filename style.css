@@ -1,0 +1,65 @@
+.header {
+  background-color: white;
+  color: crimson;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid blue;
+  margin: 10px;
+}
+
+.app-title {
+  color: blue;
+  text-align: center;
+}
+.app-description {
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dropdown {
+  width: 25%;
+  height: 48px;
+  padding: 5px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.buttons {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stop,
+.speak {
+  width: 45%;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+}
+
+.stop {
+  background-color: red;
+  color: white;
+}
+
+.speak {
+  background-color: green;
+  color: white;
+}
+
+textarea {
+  height: 70px;
+}
