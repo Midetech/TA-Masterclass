@@ -5,7 +5,7 @@
   margin-bottom: 20px;
   border-radius: 10px;
   border: 1px solid blue;
-  margin: 10px;
+  margin: 10px≠;
 }
 
 .app-title {
@@ -62,4 +62,12 @@
 
 textarea {
   height: 70px;
+}
+
+@media (max-width: 414px) {
+  .dropdown,
+  .field,
+  .buttons {
+    width: 100%;
+  }
 }
